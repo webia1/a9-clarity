@@ -10,9 +10,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, DemoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
