@@ -12,20 +12,22 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.13",
+    "@angular/cdk": "^8.2.3",
     "@angular/common": "~8.2.13",
     "@angular/compiler": "~8.2.13",
     "@angular/core": "~8.2.13",
+    "@angular/flex-layout": "^8.0.0-beta.27",
     "@angular/forms": "~8.2.13",
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
     "@clr/angular": "^2.3.4",
+    "@clr/icons": "2.3.4",
+    "@clr/ui": "2.3.4",
+    "@webcomponents/custom-elements": "^1.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1",
-    "@clr/ui": "2.3.4",
-    "@clr/icons": "2.3.4",
-    "@webcomponents/custom-elements": "^1.0.0"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.17",
