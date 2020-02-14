@@ -1,38 +1,28 @@
-<div class="main-container">
-  <div class="alert alert-app-level" *ngIf="true">
-    App Level
-  </div>
-  <header class="header-6">
-    <div class="branding">
-      .
-    </div>
-    <div class="header-nav">
-      <a href="javascript://" class="active nav-link nav-text"
-        >Dashboard</a
-      >
-      <a href="javascript://" class="nav-link nav-text">Route X</a>
-    </div>
-    <div class="header-actions">
-      <a
-        href="javascript://"
-        class="nav-link nav-icon"
-        aria-label="settings"
-      >
-        <clr-icon shape="cog"></clr-icon>
-      </a>
-    </div>
-  </header>
-  <nav class="subnav">
-    Subnav
-  </nav>
-  <div class="content-container">
-    <div class="content-area">
-      <div fxLayout="row" fxLayoutAlign="space-between center">
-        Content
+<div class="main-container cRedBorder">
+ <div fxLayout="row" fxFill fxLayoutAlign=" stretch" >
+   <div fxLayout="column" fxLayoutGap="10px" fxFlex class="cLeft cRedBorder">
+    <div fxLayout="row" 
+    fxLayoutAlign="space-between center"
+    fxLayoutGap="10px" >
+      <div class="cRedBorder">
+        <!-- LEFT -->
+      </div>
+      <div>
+
+        <button class="btn btn-icon btn-success cMr20 cMt20">
+          <clr-icon shape="check"></clr-icon>
+        </button>
       </div>
     </div>
-    <nav class="sidenav" [clr-nav-level]="2">
-      SideNav
-    </nav>
-  </div>
+    <div class="cRedBorder">
+
+
+      <div class="cMainContent">
+        Main Content
+      </div>
+
+    </div>
+   </div>
+   <div fxFlex="35" class="cRight cRedBorder cP20">RIGHT</div>
+ </div>
 </div>
