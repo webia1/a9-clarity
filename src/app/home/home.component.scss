@@ -1,40 +1,85 @@
 .cRight {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
 }
 
 .cLeft {
-    background-color: white;
+  background-color: white;
 }
 
 .cRedBorder {
-    border: 1px solid red;
-    border: none;
+  border: 1px solid red;
+  border: none;
+}
+
+.cAnim1 {
+  color: magenta;
+  transition: all 500ms ease-in 50ms;
+}
+
+.cAnim1:hover {
+  color: blue;
+  font-size: 200%;
+  font-weight: bold;
+  transition: all 300ms ease-out 50ms;
 }
 
 .cClose {
-    font-size: 42px;
+  font-size: 42px;
+}
+
+.cBall{
+    background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.cBallAnim {
+
+  animation-name: bouncing;
+  animation-duration: 400ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes bouncing {
+  from {
+    transform: translateY(400px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.cBallArea {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  height: 500px;
 }
 
 .cMainContent {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ebebeb;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ebebeb;
+}
+
+.cMT100 {
+  margin-top: 100px;
 }
 
 .cPM20 {
-    padding: 20px;
-    margin: 20px;
-} 
+  padding: 20px;
+  margin: 20px;
+}
 
 .cP20 {
-    padding: 20px;
-   
-} 
+  padding: 20px;
+}
 
 .cMr20 {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .cMt20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }

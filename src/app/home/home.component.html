@@ -1,28 +1,36 @@
 <div class="main-container cRedBorder">
- <div fxLayout="row" fxFill fxLayoutAlign=" stretch" >
-   <div fxLayout="column" fxLayoutGap="10px" fxFlex class="cLeft cRedBorder">
-    <div fxLayout="row" 
-    fxLayoutAlign="space-between center"
-    fxLayoutGap="10px" >
-      <div class="cRedBorder">
-        <!-- LEFT -->
-      </div>
-      <div>
+  <div fxLayout="row" fxFill >
+    <div fxLayout="column" fxLayoutGap="10px" fxFlex class="cLeft cRedBorder">
+      
+      <!-- ROW 1 --> 
+      <div
+        fxLayout="row"
+        fxLayoutAlign="space-between center"
+        fxLayoutGap="10px"
+      >
+      <!-- TOP LEFT -->
+        <div class="cRedBorder">
+          
+        </div>
 
-        <button class="btn btn-icon btn-success cMr20 cMt20">
-          <clr-icon shape="check"></clr-icon>
-        </button>
+        <!-- TOP RIGHT -->
+        <div>
+          <button (click)="toggleA1()" class="btn btn-icon btn-success cMr20 cMt20">
+            <clr-icon shape="check"></clr-icon>
+          </button>
+        </div>
+      </div>
+
+
+      <!-- ROW 2 -->
+      <div class="cRedBorder cMainContent">
+        <div class="cBallArea" >
+          <div class="cBall" [ngClass]="{ cBallAnim: a1 }">
+
+          </div>
+        </div>
       </div>
     </div>
-    <div class="cRedBorder">
-
-
-      <div class="cMainContent">
-        Main Content
-      </div>
-
-    </div>
-   </div>
-   <div fxFlex="35" class="cRight cRedBorder cP20">RIGHT</div>
- </div>
+    <div fxFlex="35" class="cRight cRedBorder cP20">RIGHT</div>
+  </div>
 </div>
